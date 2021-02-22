@@ -47,4 +47,5 @@ Options All -Indexes
     ServerSignature Off
 # Disable server signature end
 
+#habilitar modo desarrollador!
 setEnv CI_ENVIRONMENT development
