@@ -10,13 +10,23 @@
   <!-- NORMALIZE -->
   <link rel="stylesheet" href="<?php echo base_url('/assets/normalize.css') ?>">
 
+  <!-- BULMA CSS -->
+  <link rel="stylesheet" href="<?php echo base_url('/assets/bulma css/bulma.css') ?>">
+
   <!-- OWN STYLES -->
   <link rel="stylesheet" href="<?php echo base_url('/assets/style.css') ?>">
+
+
+
 </head>
 
 <body>
   <!--TOP IMAGES! -->
   <header>
+
+    <!-- <div>
+      <p>hola</p>
+    </div> -->
 
 
 
@@ -32,7 +42,7 @@
 
   </footer>
 
-
+  <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
 </body>
 
