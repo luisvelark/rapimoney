@@ -1,0 +1,59 @@
+body{
+  background: #57958F;
+  height: 100vh;
+}
+
+hr{
+  width: 96px;
+  height: 3px;
+  background: #C4C4C4;
+}
+
+.content-logo{
+    width: 309px;
+    height: 111px;
+    /**overflow trata el excedente de imagen */
+    margin: auto;  
+}
+
+.logo{
+  width: 100%;
+  height: 100%;
+}
+
+.btn{
+  background: #6AD77B;
+  border: none;
+  
+}
+
+.content-edificios{
+  width: 360px;
+  height: 135px;
+  bottom: 33px;
+  position: fixed;
+}
+
+.edificio{
+  width: 100%;
+  height: 100%;
+}
+
+
+.contactos{
+  width: 100%;
+  height: 33px;
+  bottom: 0;
+  position: fixed;
+  background: #6AD77B;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contacto{
+  width: 18px;
+  height: 18px;
+}
