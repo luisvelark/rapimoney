@@ -25,23 +25,57 @@
   <header>
 
     <div class="pt-3">
-      <div class="is-flex is-justify-content-space-around">
+      <div id="imagenes" class="is-flex is-justify-content-space-around">
 
-        <img class="" src="<?php echo base_url('/assets/img/header/pago.png') ?>" alt="pago">
+        <picture>
+          <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
+            sizes="">
+          <img src="<?php echo base_url('/assets/img/header/pago.png') ?>" alt="pago">
+        </picture>
 
-        <img class="" src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
+        <picture>
+          <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>"
+            sizes="">
+          <img src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
+        </picture>
 
-        <img class="" src="<?php echo base_url('/assets/img/header/rapido.png') ?>" alt="rapido">
+        <picture>
+          <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
+            sizes="">
+          <img src="<?php echo base_url('/assets/img/header/rapido.png') ?>" alt="rapido">
+        </picture>
 
-        <img class="" src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
 
-        <img class="" src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
+        <picture>
+          <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>"
+            sizes="">
+          <img src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
+        </picture>
 
-        <img class="" src="<?php echo base_url('/assets/img/header/rapido.png') ?>" alt="rapido">
+        <picture>
+          <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>"
+            sizes="">
+          <img src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
+        </picture>
 
-        <img class="" src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
+        <picture>
+          <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
+            sizes="">
+          <img src="<?php echo base_url('/assets/img/header/rapido.png') ?>" alt="rapido">
+        </picture>
 
-        <img class="" src="<?php echo base_url('/assets/img/header/pago.png') ?>" alt="pago">
+        <picture>
+          <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>"
+            sizes="">
+          <img src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
+        </picture>
+
+        <picture>
+          <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
+            sizes="">
+          <img src="<?php echo base_url('/assets/img/header/pago.png') ?>" alt="pago">
+        </picture>
+
 
       </div>
     </div>
@@ -64,8 +98,18 @@
     </section>
 
     <section class="my-6 is-flex is-justify-content-center">
-      <button class="button is-small is-rounded btn has-text-white my-1">GANA AQUÍ</button>
+      <button id="btn-gana" class="button is-small is-rounded btn has-text-white my-1" data-modal="modal">GANA
+        AQUÍ</button>
     </section>
+
+    <!--MODAL DEL ROMPECABEZAS -->
+    <div class="modal">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <!-- Any other Bulma elements you want -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
 
     <section>
       <div class="content-edificios mt-4">
@@ -94,6 +138,8 @@
   </footer>
 
   <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="<?php echo base_url('/assets/js/index-dom.js') ?>"></script>
+
 
 </body>
 
