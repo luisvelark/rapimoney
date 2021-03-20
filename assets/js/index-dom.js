@@ -1,6 +1,11 @@
 document.addEventListener("DOMContentLoaded", (e) => {
   console.log("hola");
-  responsiveImagenes("imagenes", "(min-width:1000px)");
+  responsiveImagenes("imagenes", "(min-width:1024px)");
+  responsiveEdificios(
+    "divEdificios",
+    "(min-width:768px)",
+    "http://localhost/RapiMoneyWeb/assets/img/main/fondoedificios.png"
+  );
   // let btnGana = document.getElementById("btn-gana");
 });
 
@@ -71,4 +76,40 @@ function responsiveImagenes(id, mq) {
   //*cuando ocurre el cambio de pantalla!
   breakPoint.addEventListener("change", responsive);
   responsive(breakPoint);
+}
+
+// ********************************************
+
+function responsiveEdificios(id, mq, imgs) {
+  let breakPoint = window.matchMedia(mq);
+
+  const agregarImg = (bkp) => {
+    // *CAPTURO AL NODO PADRE!
+    let divEdificio = document.getElementById(id);
+    if (bkp.matches) {
+      // *CREO LA IMAGEN EN UN FRAGMENTO MÁS EFICIENTE!
+      const frag = document.createDocumentFragment();
+      const img = document.createElement("img");
+      img.setAttribute("id", "miEdificio");
+      img.setAttribute("class", "edificio");
+      img.setAttribute("src", imgs);
+      frag.appendChild(img);
+
+      // *AGREGO LA IMG EN EL NODO PADRE!
+      divEdificio.appendChild(frag);
+    } else {
+      // *CONDICION DE SI EXISTE EL ELEMENTO EN EL DOM
+      if (document.getElementById("miEdificio")) {
+        let imgEdificio = document.getElementById("miEdificio");
+        console.log(imgEdificio);
+        // *ELIMINANDO EL ELEMENTO CREADO ANTERIORMENTE!
+        divEdificio.removeChild(imgEdificio);
+      }
+    }
+  };
+
+  //*SI OCURRE EL CAMBIO DE PANTALLA!
+  breakPoint.addEventListener("change", agregarImg);
+  // *ANALIZA EL BKP CUANDO INICIA LA PANTALLA
+  agregarImg(breakPoint);
 }

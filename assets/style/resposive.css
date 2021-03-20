@@ -1,0 +1,47 @@
+/**RESPONSIVE DISGN TABLET */
+
+@media screen and (min-width:768px){
+  
+  body{
+    background: #57958F;
+    height: 100%;
+    min-height: 768px;
+  }
+
+  hr{
+  width: 120px;
+  height: 5px;
+  background: #C4C4C4;
+  }
+
+  .content-edificios{
+    display: flex;
+    height: 250px;
+    bottom: 36px;
+    position: fixed;
+  }
+
+  .edificio{
+    width: 50%;
+    height: 100%;
+  }
+
+}
+
+/**RESPONSIVE DISGN DESKTOP */
+@media screen and (min-width:1024px){
+
+  hr{
+  width: 150px;
+  height: 7px;
+  background: #C4C4C4;
+  }
+
+  .content-logo{
+    width: 559px;
+    height: 201px;
+    /**overflow trata el excedente de imagen */
+    margin: auto;  
+  }
+
+}
