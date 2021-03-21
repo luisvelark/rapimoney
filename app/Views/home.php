@@ -102,21 +102,54 @@
         <img class="logo my-5" src="<?php echo base_url('/assets/img/main/logo.png') ?>" alt="logo">
       </div>
     </section>
-
+    <!-- is-flex is-justify-content-center -->
     <section class="pt-4 my-6 is-flex is-justify-content-center">
       <button id="btn-gana" class="button is-normal is-rounded btn has-text-white my-1" data-modal="modal">GANA
         AQUÍ</button>
     </section>
 
     <!--MODAL DEL ROMPECABEZAS -->
-    <div class="modal">
+    <div id="page-modal" class="modal">
       <div class="modal-background"></div>
       <div class="modal-content">
-        <!-- Any other Bulma elements you want -->
+        <!-- CONTENIDO EN EL MODAL! -->
+        <div class="section modal-wrap is-flex is-justify-content-center">
+
+          <div class="field">
+            <p class="control has-icons-left has-icons-right">
+              <input class="input" type="email" placeholder="Email">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+              <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+              </span>
+            </p>
+          </div>
+          <div class="field">
+            <p class="control has-icons-left">
+              <input class="input" type="password" placeholder="Password">
+              <span class="icon is-small is-left">
+                <i class="fas fa-lock"></i>
+              </span>
+            </p>
+          </div>
+          <div class="field">
+            <p class="control">
+              <button class="button is-success">
+                Login
+              </button>
+            </p>
+          </div>
+
+        </div>
+
       </div>
       <button class="modal-close is-large" aria-label="close"></button>
     </div>
 
+
+    <!--IMAGENES DE EDIFICIOS -->
     <section>
       <div id="divEdificios" class="content-edificios mt-3 mb-1">
         <img class="edificio" src="<?php echo base_url('/assets/img/main/fondoedificios.png') ?>" alt="edificio">
@@ -150,7 +183,8 @@
   </footer>
 
   <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <script src="<?php echo base_url('/assets/js/index-dom.js') ?>"></script>
+  <script src="<?php echo base_url('/assets/js/imagenes-responsive.js') ?>"></script>
+  <script src="<?php echo base_url('/assets/js/modal-puzzle.js') ?>"></script>
 
 
 </body>

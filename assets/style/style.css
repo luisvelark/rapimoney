@@ -24,7 +24,7 @@ hr{
 .btn{
   background: #6AD77B;
   border: none;
-  
+  cursor: pointer;
 }
 
 .content-edificios{
@@ -56,4 +56,10 @@ hr{
 .contacto{
   width: 20px;
   height: 20px;
+}
+
+.modal-wrap {
+  background: white;
+  position: fixed;
+  top: 30%;
 }
