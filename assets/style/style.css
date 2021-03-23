@@ -1,6 +1,6 @@
 body{
   background: #57958F;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 hr{
@@ -25,6 +25,8 @@ hr{
   background: #6AD77B;
   border: none;
   cursor: pointer;
+  z-index: 1;
+
 }
 
 .content-edificios{
@@ -59,7 +61,16 @@ hr{
 }
 
 .modal-wrap {
-  background: white;
+  background: #6AD77B;
   position: fixed;
-  top: 30%;
+  left: 10%;
+  right: 10%;
+  top: 5%;
+  
 }
+
+.frame{
+  border: none;
+  /* height: 100%; */
+}
+
