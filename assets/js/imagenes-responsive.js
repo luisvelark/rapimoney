@@ -3,13 +3,15 @@ document.addEventListener("DOMContentLoaded", (e) => {
   responsiveImagenes("imagenes", "(min-width:1024px)");
   responsiveEdificios(
     "divEdificios",
-    "(min-width:768px)",
+    "(min-width:769px)",
     "http://localhost/RapiMoneyWeb/assets/img/main/inv-fondoedificios.png"
   );
+  responsiveBtn("btn-gana", "(min-width:769px)", "is-normal");
+
   // let btnGana = document.getElementById("btn-gana");
 });
 
-// ******************FUNCIONES **************
+// ******************RESPONSIVE IMAGENES HEADER **************
 function responsiveImagenes(id, mq) {
   let breakPoint = window.matchMedia(mq);
   console.log("entro");
@@ -75,7 +77,7 @@ function responsiveImagenes(id, mq) {
   responsive(breakPoint);
 }
 
-// ********************************************
+// ************************RESPONSIVE IMAGENES DE EDIFICIO********************
 
 function responsiveEdificios(id, mq, imgs) {
   let breakPoint = window.matchMedia(mq);
@@ -109,4 +111,26 @@ function responsiveEdificios(id, mq, imgs) {
   breakPoint.addEventListener("change", agregarImg);
   // *ANALIZA EL BKP CUANDO INICIA LA PANTALLA
   agregarImg(breakPoint);
+}
+
+// ************************RESPONSIVE BOTON JUEGA Y GANA*****************
+
+function responsiveBtn(id, mq, contentDesktop) {
+  let breakPoint = window.matchMedia(mq);
+
+  const cambioClaseBtn = (bkp) => {
+    console.log("cambia boton");
+    const btnGana = document.getElementById(id);
+    if (bkp.matches) {
+      btnGana.classList.toggle("is-small");
+      btnGana.classList.toggle(contentDesktop);
+    } else {
+      btnGana.classList.remove(contentDesktop);
+      btnGana.classList.add("is-small");
+    }
+  };
+  //*SI OCURRE EL CAMBIO DE PANTALLA!
+  breakPoint.addEventListener("change", cambioClaseBtn);
+  // *ANALIZA EL BKP CUANDO INICIA LA PANTALLA
+  cambioClaseBtn(breakPoint);
 }
