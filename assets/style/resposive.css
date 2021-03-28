@@ -2,10 +2,24 @@
 
 @media screen and (min-width:768px){
   
-  /* body{
-    background: #57958F;
-    min-height: 100vh;
-  } */
+  .content-imagenes{
+    opacity: 0.4;
+    }
+    
+  .item-virtual{
+    width: 97px;
+    height: 86px;
+  }
+    
+  .item-pago{
+    width: 86px;
+    height: 86px;
+  }
+    
+  .item-rapido{
+    width: 67px;
+    height: 86px;
+  } 
 
   hr{
   width: 120px;
@@ -16,14 +30,15 @@
   .content-edificios{
     display: flex;
     height: 250px;
-    bottom: 36px;
     position: fixed;
+    bottom: 28px;
   }
 
   .edificio{
     width: 50%;
     height: 100%;
   }
+
 
 }
 
@@ -43,12 +58,15 @@
     margin: auto;  
   }
 
-  /* .btn{
-    background: #6AD77B;
-    border: none;
-    cursor: pointer;
-    z-index: 1;
+  .content-btn{
+    position: absolute;
+    left: 45%;
+    top: 55%;
+  }
 
-  } */
+  .mi-img{
+    height: 86px;
+  }
 
+  
 }

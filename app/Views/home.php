@@ -29,57 +29,64 @@
 
     <div class="pt-3">
       <div class="pt-3">
-        <div id="imagenes" class="is-flex is-justify-content-space-around">
-
-          <picture>
-            <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
-              sizes="">
-            <img src="<?php echo base_url('/assets/img/header/pago.png') ?>" alt="pago">
-          </picture>
+        <div id="imagenes" class="is-flex is-justify-content-space-around content-imagenes">
 
           <picture>
             <source media="(min-width:768px)"
               srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>" sizes="">
-            <img src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
-          </picture>
-
-          <picture>
-            <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
-              sizes="">
-            <img src="<?php echo base_url('/assets/img/header/rapido.png') ?>" alt="rapido">
-          </picture>
-
-
-          <picture>
-            <source media="(min-width:768px)"
-              srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>" sizes="">
-            <img src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
-          </picture>
-
-          <picture>
-            <source media="(min-width:768px)"
-              srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>" sizes="">
-            <img src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
-          </picture>
-
-          <picture>
-            <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
-              sizes="">
-            <img src="<?php echo base_url('/assets/img/header/rapido.png') ?>" alt="rapido">
-          </picture>
-
-          <picture>
-            <source media="(min-width:768px)"
-              srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>" sizes="">
-            <img src="<?php echo base_url('/assets/img/header/virtual.png') ?>" alt="virtual">
+            <img class="item-virtual" src="<?php echo base_url('/assets/img/header/mobil/virtual.png') ?>"
+              alt="virtual">
           </picture>
 
           <picture>
             <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
               sizes="">
-            <img src="<?php echo base_url('/assets/img/header/pago.png') ?>" alt="pago">
+            <img class="item-pago" src="<?php echo base_url('/assets/img/header/mobil/pago.png') ?>" alt="pago">
           </picture>
 
+          <picture>
+            <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
+              sizes="">
+            <img class="item-rapido" src="<?php echo base_url('/assets/img/header/mobil/rapido.png') ?>" alt="rapido">
+          </picture>
+
+          <picture>
+            <source media="(min-width:768px)"
+              srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>" sizes="">
+            <img class="item-virtual" src="<?php echo base_url('/assets/img/header/mobil/virtual.png') ?>"
+              alt="virtual">
+          </picture>
+
+          <picture>
+            <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
+              sizes="">
+            <img class="item-pago" src="<?php echo base_url('/assets/img/header/mobil/pago.png') ?>" alt="pago">
+          </picture>
+
+          <picture>
+            <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
+              sizes="">
+            <img class="item-rapido" src="<?php echo base_url('/assets/img/header/mobil/rapido.png') ?>" alt="rapido">
+          </picture>
+
+          <picture>
+            <source media="(min-width:768px)"
+              srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>" sizes="">
+            <img class="item-virtual" src="<?php echo base_url('/assets/img/header/mobil/virtual.png') ?>"
+              alt="virtual">
+          </picture>
+
+          <picture>
+            <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
+              sizes="">
+            <img class="item-pago" src="<?php echo base_url('/assets/img/header/mobil/pago.png') ?>" alt="pago">
+          </picture>
+
+          <picture>
+            <source media="(min-width:768px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
+              sizes="">
+            <img class="item-rapido" src="<?php echo base_url('/assets/img/header/mobil/rapido.png') ?>" alt="rapido">
+          </picture>
 
         </div>
       </div>
@@ -90,23 +97,23 @@
   <main class="mt-6 mb-0">
 
     <!-- SECCION DE MUY PRONTO -->
-    <section class="pt-5 my-5">
+    <section class="pt-5 my-4">
       <p class="is-size-5-mobile is-size-3-tablet is-size-2-desktop is-italic has-text-weight-bold has-text-white ml-5">
         MUY PRONTO</p>
-      <hr class="mt-0 mb-5">
+      <hr class="mt-0 mb-4">
     </section>
 
     <!-- SECCION LOGO -->
-    <section class="pt-0 my-5">
-      <div class="content-logo my-5">
-        <img class="logo my-5" src="<?php echo base_url('/assets/img/main/logo.png') ?>" alt="logo">
+    <section class="pt-0 mt-6">
+      <div class="content-logo">
+        <img class="logo mt-5" src="<?php echo base_url('/assets/img/main/logo.png') ?>" alt="logo">
       </div>
     </section>
-    <!-- is-flex is-justify-content-center -->
-    <section class="pt-4 my-6 is-flex is-justify-content-center">
+
+    <!-- <section class="pt-4 my-6 is-flex is-justify-content-center">
       <button id="btn-gana" class="button is-normal is-rounded btn has-text-white my-1" data-modal="modal">GANA
         AQUÍ</button>
-    </section>
+    </section> -->
 
     <!--MODAL DEL ROMPECABEZAS -->
     <div id="page-modal" class="modal">
@@ -114,14 +121,11 @@
       <div class="modal-content">
         <!-- CONTENIDO EN EL MODAL! -->
         <div class="modal-wrap px-2 pt-2 ">
-          <iframe class="frame" src="https://www.jigsawplanet.com/?rc=play&amp;pid=272c93685faf&amp;view=iframe"
+          <iframe id="mi-iframe" class="frame"
+            src="https://www.jigsawplanet.com/?rc=play&amp;pid=272c93685faf&amp;view=iframe"
             style="width:100%;height:600px" frameborder=0 allowfullscreen>
           </iframe>
-
-
         </div>
-
-
       </div>
       <button class="modal-close is-large" aria-label="close"></button>
     </div>
@@ -130,8 +134,16 @@
 
     <!--IMAGENES DE EDIFICIOS -->
     <section>
-      <div id="divEdificios" class="content-edificios mt-3 mb-1">
+      <div id="divEdificios" class="content-edificios">
+        <div class="content-btn">
+          <button id="btn-gana" class="button is-normal is-rounded btn has-text-white" data-modal="modal">GANA
+            AQUÍ</button>
+        </div>
+
+        <!-- <div> -->
         <img class="edificio" src="<?php echo base_url('/assets/img/main/fondoedificios.png') ?>" alt="edificio">
+        <!-- </div> -->
+
       </div>
     </section>
 
@@ -140,11 +152,13 @@
 
   <!--REDES SOCIALES! -->
   <footer class="mt-0">
-    <div class="contactos">
+    <div class="content-derechos">
 
-      <div class="item-contacto">
+      <p class="derechos">Copyright © 2021 RAPIMONEY, All rights reserved.</p>
+
+      <!-- <div class="item-contacto">
         <a href="https://www.facebook.com/rapimoney.pe" target="_blank">
-          <img class="contacto" src="<?php echo base_url('/assets/img/footer/facebook.png') ?>" alt="">
+          <img class="contacto" src="<?php #echo base_url('/assets/img/footer/facebook.png') ?>" alt="">
           <span class="is-size-6 has-text-white">/RapiMoney</span>
         </a>
 
@@ -153,17 +167,19 @@
       <div class="item-contacto">
         <a href="https://wa.me/51921434247?text=Hola,%20tengo%20tarjeta%20de%20cr%C3%A9dito%20y%20deseo%20retirar%20dinero%20en%20efectivo
 " target="_blank">
-          <img class="contacto" src="<?php echo base_url('/assets/img/footer/whatsaap.png') ?>" alt="">
+          <img class="contacto" src="<?php #echo base_url('/assets/img/footer/whatsaap.png') ?>" alt="">
           <span class="is-size-6 has-text-white">921 434 247</span>
         </a>
+      </div> -->
 
-      </div>
     </div>
   </footer>
 
   <script src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   <script src="<?php echo base_url('/assets/js/imagenes-responsive.js') ?>"></script>
   <script src="<?php echo base_url('/assets/js/modal-puzzle.js') ?>"></script>
+  <script src="<?php echo base_url('/assets/js/puzzle.js') ?>"></script>
+
 
 
 </body>

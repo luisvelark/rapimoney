@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   responsiveEdificios(
     "divEdificios",
     "(min-width:768px)",
-    "http://localhost/RapiMoneyWeb/assets/img/main/fondoedificios.png"
+    "http://localhost/RapiMoneyWeb/assets/img/main/inv-fondoedificios.png"
   );
   // let btnGana = document.getElementById("btn-gana");
 });
@@ -23,9 +23,6 @@ function responsiveImagenes(id, mq) {
         "http://localhost/RapiMoneyWeb/assets/img/header/desktop/virtual-D.png",
         "http://localhost/RapiMoneyWeb/assets/img/header/desktop/rapido-D.png",
         "http://localhost/RapiMoneyWeb/assets/img/header/desktop/virtual-D.png",
-        "http://localhost/RapiMoneyWeb/assets/img/header/desktop/virtual-D.png",
-        "http://localhost/RapiMoneyWeb/assets/img/header/desktop/rapido-D.png",
-        "http://localhost/RapiMoneyWeb/assets/img/header/desktop/pago-D.png",
       ];
       const fragment = document.createDocumentFragment();
 
@@ -60,10 +57,10 @@ function responsiveImagenes(id, mq) {
         console.log("lo borro");
         imagenes.removeChild(misImagenes.item(0));
         imagenes.removeChild(misImagenes.item(1));
-        imagenes.removeChild(misImagenes.item(2));
         imagenes.removeChild(misImagenes.item(0));
-        imagenes.removeChild(misImagenes.item(1));
-        imagenes.removeChild(misImagenes.item(0));
+        // imagenes.removeChild(misImagenes.item(0));
+        // imagenes.removeChild(misImagenes.item(1));
+        // imagenes.removeChild(misImagenes.item(0));
 
         // imagenes.removeChild(misImagenes.item(3));
         // imagenes.removeChild(misImagenes.item(4));
