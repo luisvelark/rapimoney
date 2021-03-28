@@ -121,8 +121,13 @@
       <div class="modal-content">
         <!-- CONTENIDO EN EL MODAL! -->
         <div class="modal-wrap modal-wrap--position px-2 pt-2 ">
-          <iframe id="mi-iframe" class="frame"
+          <!-- <iframe id="mi-iframe" class="frame"
             src="https://www.jigsawplanet.com/?rc=play&amp;pid=272c93685faf&amp;view=iframe"
+            style="width:100%;height:600px" frameborder=0 allowfullscreen>
+          </iframe> -->
+
+          <iframe id="mi-iframe" class="frame"
+            src="https://www.jigsawplanet.com/?rc=play&amp;pid=1f54c72c8548&amp;view=iframe"
             style="width:100%;height:600px" frameborder=0 allowfullscreen>
           </iframe>
         </div>
