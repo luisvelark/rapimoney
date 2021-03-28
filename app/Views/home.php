@@ -110,26 +110,18 @@
       </div>
     </section>
 
-    <!-- <section class="pt-4 my-6 is-flex is-justify-content-center">
-      <button id="btn-gana" class="button is-normal is-rounded btn has-text-white my-1" data-modal="modal">GANA
-        AQUÍ</button>
-    </section> -->
-
     <!--MODAL DEL ROMPECABEZAS -->
     <div id="page-modal" class="modal">
       <div class="modal-background"></div>
       <div class="modal-content">
         <!-- CONTENIDO EN EL MODAL! -->
         <div class="modal-wrap modal-wrap--position px-2 pt-2 ">
-          <!-- <iframe id="mi-iframe" class="frame"
-            src="https://www.jigsawplanet.com/?rc=play&amp;pid=272c93685faf&amp;view=iframe"
-            style="width:100%;height:600px" frameborder=0 allowfullscreen>
-          </iframe> -->
 
           <iframe id="mi-iframe" class="frame"
             src="https://www.jigsawplanet.com/?rc=play&amp;pid=1f54c72c8548&amp;view=iframe"
             style="width:100%;height:600px" frameborder=0 allowfullscreen>
           </iframe>
+
         </div>
       </div>
       <button class="modal-close is-large" aria-label="close"></button>
@@ -174,22 +166,6 @@
     <div class="content-derechos content-derechos--size">
 
       <p class="derechos derechos--font-zise">Copyright © 2021 RAPIMONEY, All rights reserved.</p>
-
-      <!-- <div class="item-redes">
-        <a href="https://www.facebook.com/rapimoney.pe" target="_blank">
-          <img class="redes" src="<?php #echo base_url('/assets/img/footer/facebook.png') ?>" alt="">
-          <span class="is-size-6 has-text-white">/RapiMoney</span>
-        </a>
-
-      </div>
-
-      <div class="item-redes">
-        <a href="https://wa.me/51921434247?text=Hola,%20tengo%20tarjeta%20de%20cr%C3%A9dito%20y%20deseo%20retirar%20dinero%20en%20efectivo
-" target="_blank">
-          <img class="redes" src="<?php #echo base_url('/assets/img/footer/whatsap.png') ?>" alt="">
-          <span class="is-size-6 has-text-white">921 434 247</span>
-        </a>
-      </div> -->
 
     </div>
   </footer>
