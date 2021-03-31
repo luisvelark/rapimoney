@@ -104,9 +104,9 @@
     </section>
 
     <!-- SECCION LOGO -->
-    <section class="pt-0 mt-6">
+    <section class="pt-0 mt-3">
       <div class="content-logo">
-        <img class="logo mt-5" src="<?php echo base_url('/assets/img/main/logo.png') ?>" alt="logo">
+        <img class="logo mt-3" src="<?php echo base_url('/assets/img/main/logo.png') ?>" alt="logo">
       </div>
     </section>
 
@@ -147,7 +147,7 @@
     <section>
       <div id="divEdificios" class="content-edificios">
         <div class="content-btn">
-          <button id="btn-gana" class="button is-small is-rounded btn has-text-white" data-modal="modal">JUEGA
+          <button id="btn-gana" class="button is-normal is-rounded btn has-text-white" data-modal="modal">JUEGA
             AQUÍ</button>
         </div>
 
