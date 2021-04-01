@@ -3,6 +3,7 @@ body{
   min-height: 100vh;
 }
 
+/**IMAGENES TOP*/
 .content-imagenes{
 opacity: 0.4;
 }
@@ -22,13 +23,14 @@ opacity: 0.4;
   width: 24px;
   height: 31px;
 }
-
+/***MUY PRONTO*/
 hr{
   width: 85px;
   height: 3px;
   background: #C4C4C4;
 }
 
+/**LOGO*/
 .content-logo{
     width: 309px;
     height: 111px;
@@ -40,6 +42,7 @@ hr{
 .logo{
   width: 100%;
   height: 100%;
+  display: block;
 }
 
 .content-edificios{
@@ -107,7 +110,8 @@ hr{
 
 .frame{
   border: none;
-  /* height: 100%; */
+  width:100%;
+  height:550px;
 }
 
 /** REDES SOCIALES */
@@ -130,3 +134,51 @@ margin-top: 1px;
   width: 40px;
   height: 40px;
 } 
+
+/* @media only screen and (max-height:600px){ */
+
+/* .test{
+  background-color: red;
+} */
+/* } */ 
+
+@media (orientation:landscape) and (max-width:768px)
+{
+
+  .test{
+    background-color: red;
+  }
+  .content-pronto{
+    position: relative;
+  }
+
+  .pronto{
+
+    position: absolute;
+    top: -100px;
+    
+  }
+
+  .content-btn{
+    position: absolute;
+    /* left: 35%;
+    top: 39%; */
+    left: 34%;
+    top: 65%;
+  }
+
+  .frame{
+    border: none;
+    width:100%;
+    height:300px;
+  }
+
+  .content-logo {
+    width: 309px;
+    height: 113px;
+    margin: auto;
+    margin-top: 4em;
+}
+
+
+}

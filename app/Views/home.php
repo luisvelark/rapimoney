@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>rapimoney</title>
 
+
+  <link rel="shortcut icon" href="<?php echo base_url('/favicon.ico') ?>" type="image/x-icon">
+
+
   <!-- NORMALIZE -->
   <link rel="stylesheet" href="<?php echo base_url('/assets/style/normalize.css') ?>">
 
@@ -97,10 +101,13 @@
   <main class="mt-6 mb-0">
 
     <!-- SECCION DE MUY PRONTO -->
-    <section class="pt-5 my-4">
-      <p class="is-size-5-mobile is-size-3-tablet is-size-2-desktop is-italic has-text-weight-bold has-text-white ml-5">
-        MUY PRONTO</p>
-      <hr class="mt-0 mb-4">
+    <section class="content-pronto">
+      <div class="pronto pt-5 my-4">
+        <p
+          class="is-size-5-mobile is-size-3-tablet is-size-2-desktop is-italic has-text-weight-bold has-text-white ml-5 test">
+          MUY PRONTO</p>
+        <hr class="mt-0 mb-4">
+      </div>
     </section>
 
     <!-- SECCION LOGO -->
@@ -117,10 +124,14 @@
         <!-- CONTENIDO EN EL MODAL! -->
         <div class="modal-wrap modal-wrap--position px-2 pt-2 ">
 
-          <iframe id="mi-iframe" class="frame"
+          <!-- <iframe id="mi-iframe" class="frame"
             src="https://www.jigsawplanet.com/?rc=play&amp;pid=1f54c72c8548&amp;view=iframe"
             style="width:100%;height:600px" frameborder=0 allowfullscreen>
-          </iframe>
+          </iframe> -->
+
+          <iframe id="mi-iframe" class="frame"
+            src="https://www.jigsawplanet.com/?rc=play&amp;pid=0368b53e8e90&amp;view=iframe&amp;bgcolor=0xffffff"
+            frameborder="0" allowfullscreen></iframe>
 
         </div>
       </div>
