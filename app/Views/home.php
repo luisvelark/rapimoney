@@ -32,77 +32,72 @@
   <header>
 
     <div class="pt-3">
-      <div class="pt-3">
-        <div id="imagenes" class="is-flex is-justify-content-space-around content-imagenes">
+      <div id="imagenes" class="is-flex is-justify-content-space-around content-imagenes">
 
-          <picture>
-            <source media="(min-width:769px)"
-              srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>" sizes="">
-            <img class="item-virtual" src="<?php echo base_url('/assets/img/header/mobil/virtual.png') ?>"
-              alt="virtual">
-          </picture>
+        <picture>
+          <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>"
+            sizes="">
+          <img class="item-virtual" src="<?php echo base_url('/assets/img/header/mobil/virtual.png') ?>" alt="virtual">
+        </picture>
 
-          <picture>
-            <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
-              sizes="">
-            <img class="item-pago" src="<?php echo base_url('/assets/img/header/mobil/pago.png') ?>" alt="pago">
-          </picture>
+        <picture>
+          <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
+            sizes="">
+          <img class="item-pago" src="<?php echo base_url('/assets/img/header/mobil/pago.png') ?>" alt="pago">
+        </picture>
 
-          <picture>
-            <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
-              sizes="">
-            <img class="item-rapido" src="<?php echo base_url('/assets/img/header/mobil/rapido.png') ?>" alt="rapido">
-          </picture>
+        <picture>
+          <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
+            sizes="">
+          <img class="item-rapido" src="<?php echo base_url('/assets/img/header/mobil/rapido.png') ?>" alt="rapido">
+        </picture>
 
-          <picture>
-            <source media="(min-width:769px)"
-              srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>" sizes="">
-            <img class="item-virtual" src="<?php echo base_url('/assets/img/header/mobil/virtual.png') ?>"
-              alt="virtual">
-          </picture>
+        <picture>
+          <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>"
+            sizes="">
+          <img class="item-virtual" src="<?php echo base_url('/assets/img/header/mobil/virtual.png') ?>" alt="virtual">
+        </picture>
 
-          <picture>
-            <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
-              sizes="">
-            <img class="item-pago" src="<?php echo base_url('/assets/img/header/mobil/pago.png') ?>" alt="pago">
-          </picture>
+        <picture>
+          <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
+            sizes="">
+          <img class="item-pago" src="<?php echo base_url('/assets/img/header/mobil/pago.png') ?>" alt="pago">
+        </picture>
 
-          <picture>
-            <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
-              sizes="">
-            <img class="item-rapido" src="<?php echo base_url('/assets/img/header/mobil/rapido.png') ?>" alt="rapido">
-          </picture>
+        <picture>
+          <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
+            sizes="">
+          <img class="item-rapido" src="<?php echo base_url('/assets/img/header/mobil/rapido.png') ?>" alt="rapido">
+        </picture>
 
-          <picture>
-            <source media="(min-width:769px)"
-              srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>" sizes="">
-            <img class="item-virtual" src="<?php echo base_url('/assets/img/header/mobil/virtual.png') ?>"
-              alt="virtual">
-          </picture>
+        <picture>
+          <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/virtual-D.png') ?>"
+            sizes="">
+          <img class="item-virtual" src="<?php echo base_url('/assets/img/header/mobil/virtual.png') ?>" alt="virtual">
+        </picture>
 
-          <picture>
-            <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
-              sizes="">
-            <img class="item-pago" src="<?php echo base_url('/assets/img/header/mobil/pago.png') ?>" alt="pago">
-          </picture>
+        <picture>
+          <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/pago-D.png') ?>"
+            sizes="">
+          <img class="item-pago" src="<?php echo base_url('/assets/img/header/mobil/pago.png') ?>" alt="pago">
+        </picture>
 
-          <picture>
-            <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
-              sizes="">
-            <img class="item-rapido" src="<?php echo base_url('/assets/img/header/mobil/rapido.png') ?>" alt="rapido">
-          </picture>
+        <picture>
+          <source media="(min-width:769px)" srcset="<?php echo base_url('/assets/img/header/desktop/rapido-D.png') ?>"
+            sizes="">
+          <img class="item-rapido" src="<?php echo base_url('/assets/img/header/mobil/rapido.png') ?>" alt="rapido">
+        </picture>
 
-        </div>
       </div>
     </div>
   </header>
 
   <!-- PROMO RAPIMONEY! -->
-  <main class="mt-6 mb-0">
+  <main class="mt-4 mb-0">
 
     <!-- SECCION DE MUY PRONTO -->
     <section class="content-pronto">
-      <div class="pronto pt-5 my-4">
+      <div class="pronto pt-2 my-1">
         <p
           class="is-size-5-mobile is-size-3-tablet is-size-2-desktop is-italic has-text-weight-bold has-text-white ml-5 test">
           MUY PRONTO</p>
@@ -111,7 +106,7 @@
     </section>
 
     <!-- SECCION LOGO -->
-    <section class="pt-0 mt-3">
+    <section class="pt-0 mt-2">
       <div class="content-logo">
         <img class="logo mt-3" src="<?php echo base_url('/assets/img/main/logo.png') ?>" alt="logo">
       </div>

@@ -62,8 +62,8 @@ hr{
   position: absolute;
   /* left: 35%;
   top: 39%; */
-  left: 34%;
-  top: 35%;
+  left: 30%;
+  top: 50%;
 }
 
 .btn{
@@ -111,7 +111,8 @@ hr{
 .frame{
   border: none;
   width:100%;
-  height:550px;
+  height: 400px;
+  /* height:460px; */
 }
 
 /** REDES SOCIALES */
@@ -135,12 +136,6 @@ margin-top: 1px;
   height: 40px;
 } 
 
-/* @media only screen and (max-height:600px){ */
-
-/* .test{
-  background-color: red;
-} */
-/* } */ 
 
 @media (orientation:landscape) and (max-width:768px)
 {
@@ -155,7 +150,7 @@ margin-top: 1px;
   .pronto{
 
     position: absolute;
-    top: -100px;
+    top: -57px;
     
   }
 
@@ -177,7 +172,7 @@ margin-top: 1px;
     width: 309px;
     height: 113px;
     margin: auto;
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 
