@@ -21,6 +21,7 @@ class App extends BaseConfig
     | environments.
     |
      */
+    #public $baseURL = 'http://rapimoney.pe/';
     public $baseURL = 'http://localhost/RapiMoneyWeb/';
 
     /*

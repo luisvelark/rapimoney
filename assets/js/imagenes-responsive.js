@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", (e) => {
   console.log("hola");
   responsiveImagenes("imagenes", "(min-width:1024px)");
-  responsiveEdificios(
-    "divEdificios",
-    "(min-width:769px)",
-    "http://localhost/RapiMoneyWeb/assets/img/main/inv-fondoedificios.png"
-  );
+  let link =
+    "http://localhost/RapiMoneyWeb/assets/img/main/inv-fondoedificios.png";
+  // let link =
+  //   "http://rapimoney.pe/assets/img/main/inv-fondoedificios.png";
+  responsiveEdificios("divEdificios", "(min-width:769px)", link);
   // responsiveBtn("btn-gana", "(min-width:769px)", "is-normal");
 });
 
@@ -24,6 +24,11 @@ function responsiveImagenes(id, mq) {
         "http://localhost/RapiMoneyWeb/assets/img/header/desktop/rapido-D.png",
         "http://localhost/RapiMoneyWeb/assets/img/header/desktop/virtual-D.png",
       ];
+      // imgs = [
+      //   "http://rapimoney.pe/assets/img/header/desktop/virtual-D.png",
+      //   "http://rapimoney.pe/assets/img/header/desktop/rapido-D.png",
+      //   "http://rapimoney.pe/assets/img/header/desktop/virtual-D.png",
+      // ];
       const fragment = document.createDocumentFragment();
 
       for (const imgUrl of imgs) {
@@ -38,16 +43,7 @@ function responsiveImagenes(id, mq) {
       console.log(misImagenes);
       console.log("aparecio" + misImagenes.length);
 
-      // let img = document.createElement("img");
-      // img.setAttribute("id", "mi-img");
-      // img.setAttribute(
-      //   "src",
-      //   "http://localhost/RapiMoneyWeb/assets/img/header/desktop/pago-D.png"
-      // );
-      // img.setAttribute("alt", "pago");
-
       // *AGREGANDO LA IMG EN EL NODO PADRE!
-      // imagenes.appendChild(img);
       imagenes.appendChild(fragment);
     } else {
       let misImagenes = document.getElementsByClassName("mi-img");

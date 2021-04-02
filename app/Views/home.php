@@ -139,9 +139,8 @@
       <a href="https://www.facebook.com/rapimoney.pe" target="_blank">
         <img class="redes" src="<?php echo base_url('/assets/img/footer/facebook.png') ?>" alt="facebook">
       </a>
-
-      <a href="https://wa.me/51921434247?text=Hola,%20tengo%20tarjeta%20de%20cr%C3%A9dito%20y%20deseo%20retirar%20dinero%20en%20efectivo
-" target="_blank">
+      <!-- https://wa.me/51921434247?text=Hola,%20tengo%20tarjeta%20de%20cr%C3%A9dito%20y%20deseo%20retirar%20dinero%20en%20efectivo -->
+      <a href="http://shorturl.at/jlyG1" target="_blank">
         <img class="redes" src="<?php echo base_url('/assets/img/footer/whatsap.png') ?>" alt="whatasp">
       </a>
 
@@ -167,7 +166,7 @@
 
   </main>
 
-  <!--REDES SOCIALES! -->
+  <!--FOOTER! -->
   <footer class="mt-0">
     <div class="content-derechos content-derechos--size">
 
@@ -180,6 +179,8 @@
   <script src="<?php echo base_url('/assets/js/imagenes-responsive.js') ?>"></script>
   <script src="<?php echo base_url('/assets/js/modal-puzzle.js') ?>"></script>
   <script src="<?php echo base_url('/assets/js/puzzle.js') ?>"></script>
+  <script src="<?php echo base_url('/assets/js/redes-sociales.js') ?>"></script>
+
 
 
 
