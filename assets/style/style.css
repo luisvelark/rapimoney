@@ -104,14 +104,14 @@ hr{
   position: fixed;
   left: 10%;
   right: 10%;
-  top: 3%;
+  top: 2%;
   
 }
 
 .frame{
   border: none;
   width:100%;
-  height: 400px;
+  height: 480px;
   /* height:460px; */
 }
 
@@ -137,8 +137,9 @@ margin-top: 1px;
 } 
 
 
-@media (orientation:landscape) and (max-width:768px)
+@media (orientation:landscape) and (max-width:900px)
 {
+ 
 
   .content-pronto{
     position: relative;
@@ -159,10 +160,19 @@ margin-top: 1px;
     top: 65%;
   }
 
+  .modal-wrap {
+    background: #6AD77B;
+    position: fixed;
+    left: 10%;
+    right: 10%;
+    top: 5px;
+    
+  }
+
   .frame{
     border: none;
     width:100%;
-    height:290px;
+    height:320px;
   }
 
   .content-logo {
